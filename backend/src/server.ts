@@ -1,6 +1,6 @@
 import http from "http";
 import app from "./app";
-import { ENV } from "./config/env";
+import { ENV } from "./infrastructure/config/env";
 
 const PORT = ENV.PORT;
 
